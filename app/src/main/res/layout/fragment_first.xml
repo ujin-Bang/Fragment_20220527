@@ -17,6 +17,6 @@
         android:id="@+id/btnLog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="프래그먼트에서 로그 찍기요"요>
+        android:text="프래그먼트에서 로그 찍기"/>
 
 </LinearLayout>
