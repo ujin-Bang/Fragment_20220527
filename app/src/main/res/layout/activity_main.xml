@@ -11,9 +11,15 @@
         <fragment
             android:tag="첫프래그먼트"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="250dp"
             class="com.start.fragment_20220527.fragments.FirstFragment"/>
-기
+
+        <fragment
+            android:tag="두번째프래그먼트"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            class="com.start.fragment_20220527.fragments.SecondFragment"/>
 
     </LinearLayout>
 </layout>
