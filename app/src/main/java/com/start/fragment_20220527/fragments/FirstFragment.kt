@@ -32,6 +32,7 @@ class FirstFragment: Fragment() {
         }
 
         binding.btnLog.setOnClickListener {
+            //프래그먼트는 화면이 아니고 부품이므로 this대신 requireContext()사용
             Toast.makeText(requireContext(), "프래그먼트에서 토스트띄우기", Toast.LENGTH_SHORT).show()
         }
     }
